@@ -1,4 +1,7 @@
-GET /api/2.3/tenders HTTP/1.0
-Authorization: Basic YnJva2VyOg==
-Host: api-sandbox.openprocurement.org
+POST /register HTTP/1.0
+Authorization: Basic YnJva2VyOmJyb2tlcg==
+Content-Length: 43
+Content-Type: application/x-www-form-urlencoded
+Host: docs-sandbox.openprocurement.org
 
+hash=md5%3A9a0364b9e99bb480dd25e1f0284c8555
